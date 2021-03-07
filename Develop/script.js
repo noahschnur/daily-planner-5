@@ -1,5 +1,3 @@
-var tasks = {};
-
 // Add current day to header
 var currentDay = moment().format("MMMM Do YYYY");
 $("#currentDay").text(currentDay);
@@ -19,18 +17,25 @@ $("textarea").each(function () {
     }
 });
 
-var createTask = function(taskText) {
-    var taskP = $("<p>")
-        addClass("task-input")
-        .text(taskText);
+// Click save for localStorage
+$(".saveBtn").on("click", function() {
+    var textContent = $(this).val(".task-input");
 
-    // Save to local storage
-    var saveTask = $(".saveBtn").click(function() {
-        localStorage.setItem("tasks", $(".taskP"));
+    localStorage.setItem("task" , textContent)
+    console.log("task", textContent)
+});
+
+// Return from local storage
+
+localStorage.getItem(textContent);
+
+// reload time without refreshing page
+
+setInterval(function () {
+    $(".task-input").each(function(index, el) {
+      auditTask(el);
     });
-};
+  }, (1000 * 60) * 5);
 
-// Load tasks when page refreshed
-var loadTasks = function() {
-  tasks = JSON.parse(localStorage.getItem("tasks"));
-};
+//  clear after end of day
+
