@@ -12,4 +12,5 @@ GitHub repository:
 Deployed URL:
 
 SCREENSHOT
-![Alt text](./Daily-Planner.jpg "Daily Planner")
+
+![Alt text](https://github.com/noahschnur/daily-planner-5/blob/main/Daily-Planner.png "Daily Planner")
