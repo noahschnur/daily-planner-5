@@ -41,33 +41,3 @@ $(".saveBtn").on("click", function () {
 
 loadDate()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// setInterval(function () {
-//     $(".hour .task-input").each(function(el) {
-//       auditTask(el);
-//       localStorage.getItem(content)
-//     });
-//   }, (1000 * 60) * 5);
-
-// clear at end of day
-// hour >6, localStorage.clear()
