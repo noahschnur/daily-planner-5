@@ -8,8 +8,8 @@ Noah Schnur for Coding Bootcamp Challenge 5
 
 LINKS
 
-GitHub repository:
-Deployed URL:
+GitHub repository: https://github.com/noahschnur/daily-planner-5
+Deployed URL: https://noahschnur.github.io/daily-planner-5/
 
 SCREENSHOT
 
